@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+ul
+{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+ul li
+{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.login
+{
+    border-color: blue;
+    color: blue;
+
+}
+
+.register
+{
+    border-color: rgb(201, 28, 2);
+    color: rgb(201, 28, 2);
+}
+
+@media screen and (min-width: 574px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+}
